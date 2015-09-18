@@ -1,0 +1,37 @@
+{
+  "name": "github-releases",
+  "version": "0.0.0",
+  "description": "Get a information of releases with sorted index from github's repo",
+  "license": "MIT",
+  "repository": "ragingwind/github-releases",
+  "author": {
+    "name": "ragingwind",
+    "email": "ragingwind@gmail.com",
+    "url": "ragingwind.me"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "github",
+    "github releases",
+    "gh-got",
+    "got"
+  ],
+  "dependencies": {
+    "gh-got": "^2.0.0",
+    "object-assign": "^4.0.1",
+    "semver": "^5.0.3",
+    "semver-sort": "0.0.2"
+  },
+  "devDependencies": {
+    "ava": "^0.2.0",
+    "xo": "*"
+  }
+}
