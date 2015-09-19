@@ -1,4 +1,4 @@
-# got-gh-releases [![Build Status](https://travis-ci.org/ragingwind/got-gh-releases.svg?branch=master)](https://travis-ci.org/ragingwind/got-gh-releases)
+# got-github-releases [![Build Status](https://travis-ci.org/ragingwind/node-got-github-releases.svg?branch=master)](https://travis-ci.org/ragingwind/got-github-releases)
 
 > Get releases of github as accessible data
 
@@ -6,14 +6,14 @@
 ## Install
 
 ```
-$ npm install --save got-gh-releases
+$ npm install --save got-github-releases
 ```
 
 
 ## Usage
 
 ```js
-var ghReleases = require('got-gh-releases');
+var ghReleases = require('got-github-releases');
 
 ghReleases('users/repo').then(function (releases) {
 	console.log(releases.latest.tarball_url);
@@ -30,7 +30,7 @@ ghReleases('users/repo').then(function (releases) {
 
 ## API
 
-### ghaGot(ownerAndRepo, [options])
+### ghReleases(ownerAndRepo, [options])
 
 #### ownerAndRepo
 
