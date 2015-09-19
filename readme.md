@@ -1,19 +1,19 @@
-# github-releases [![Build Status](https://travis-ci.org/ragingwind/github-releases.svg?branch=master)](https://travis-ci.org/ragingwind/github-releases)
+# got-gh-releases [![Build Status](https://travis-ci.org/ragingwind/got-gh-releases.svg?branch=master)](https://travis-ci.org/ragingwind/got-gh-releases)
 
-> Get a information of releases with sorted index from github's repo
+> Get releases of github as accessible data
 
 
 ## Install
 
 ```
-$ npm install --save github-releases
+$ npm install --save got-gh-releases
 ```
 
 
 ## Usage
 
 ```js
-var ghReleases = require('github-releases');
+var ghReleases = require('got-gh-releases');
 
 ghReleases('users/repo').then(function (releases) {
 	console.log(releases.latest.tarball_url);

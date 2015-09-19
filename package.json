@@ -1,9 +1,9 @@
 {
   "name": "github-releases",
   "version": "0.1.0",
-  "description": "Get a information of releases with sorted index from github's repo",
+  "description": "Get releases of github as accessible data",
   "license": "MIT",
-  "repository": "ragingwind/github-releases",
+  "repository": "ragingwind/node-github-releases",
   "author": {
     "name": "ragingwind",
     "email": "ragingwind@gmail.com",
