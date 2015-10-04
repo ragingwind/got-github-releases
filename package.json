@@ -25,10 +25,10 @@
     "got"
   ],
   "dependencies": {
-    "gh-got": "^2.0.0",
+    "gh-got": "^2.0.1",
     "object-assign": "^4.0.1",
     "semver": "^5.0.3",
-    "semver-sort": "0.0.2"
+    "semver-sort": "0.0.3"
   },
   "devDependencies": {
     "ava": "^0.2.0",
