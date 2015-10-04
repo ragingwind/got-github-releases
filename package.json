@@ -1,6 +1,6 @@
 {
   "name": "got-github-releases",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Got releases of github as accessible data",
   "license": "MIT",
   "repository": "ragingwind/node-got-github-releases",
