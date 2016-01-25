@@ -1,4 +1,4 @@
-# got-github-releases [![Build Status](https://travis-ci.org/ragingwind/node-got-github-releases.svg?branch=master)](https://travis-ci.org/ragingwind/node-got-github-releases)
+# got-github-releases [![Build Status](https://travis-ci.org/ragingwind/got-github-releases.svg?branch=master)](https://travis-ci.org/ragingwind/got-github-releases)
 
 > Got releases of github as accessible data
 
